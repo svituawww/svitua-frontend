@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="container mx-auto px-4 py-4">
                     <nav class="flex justify-between items-center">
                         <div class="flex items-center space-x-4">
+                            <img src="/images/logos/svitua-small.png" alt="SVIT UA Logo" class="h-12 w-12 object-contain">
                             <div class="text-2xl font-bold text-blue-600">SVIT UA</div>
                         </div>
                         <div class="hidden md:flex space-x-6">
@@ -32,6 +33,9 @@ document.addEventListener('DOMContentLoaded', () => {
             <!-- Hero Section -->
             <section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
                 <div class="container mx-auto px-4 text-center">
+                    <div class="flex justify-center mb-6">
+                        <img src="/images/logos/svitua-logo.png" alt="SVIT UA Logo" class="h-24 w-auto object-contain">
+                    </div>
                     <h1 class="text-5xl md:text-6xl font-bold mb-6">SVIT UA</h1>
                     <p class="text-xl md:text-2xl mb-8 max-w-4xl mx-auto">
                         ГУМАНІТАРНА ДОПОМОГА, ВОЛОНТЕРСТВО ТА ІНТЕГРАЦІЯ — МИ ПОРУЧ ІЗ ТОБОЮ В ШВЕЦІЇ
@@ -55,15 +59,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="container mx-auto px-4">
                     <h2 class="text-3xl font-bold text-center mb-12">Наші партнери</h2>
                     <div class="flex justify-center items-center space-x-8 opacity-60">
-                        <div class="w-24 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
-                            <span class="text-sm text-gray-500">Партнер 1</span>
-                        </div>
-                        <div class="w-24 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
-                            <span class="text-sm text-gray-500">Партнер 2</span>
-                        </div>
-                        <div class="w-24 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
-                            <span class="text-sm text-gray-500">Партнер 3</span>
-                        </div>
+                        <img src="/images/partners/partner-01.jpg" alt="Partner 1" class="w-24 h-24 rounded-lg object-cover hover:opacity-100 transition-opacity">
+                        <img src="/images/partners/partner-02.jpg" alt="Partner 2" class="w-24 h-24 rounded-lg object-cover hover:opacity-100 transition-opacity">
                     </div>
                 </div>
             </section>
